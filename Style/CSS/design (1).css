@@ -1,0 +1,134 @@
+body .slide .slideshow-container_img-montain {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0; }
+
+body nav .nav_menu .nav_menu_naviguer, body nav .nav_menu .nav_menu_connecter, body nav .nav_menu .nav_menu_analyser {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2% 0% 2%; }
+  body nav .nav_menu .nav_menu_naviguer h1, body nav .nav_menu .nav_menu_connecter h1, body nav .nav_menu .nav_menu_analyser h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-block-end: 0; }
+  body nav .nav_menu .nav_menu_naviguer figure, body nav .nav_menu .nav_menu_connecter figure, body nav .nav_menu .nav_menu_analyser figure {
+    width: 70%;
+    margin: auto;
+    text-align: center; }
+  body nav .nav_menu .nav_menu_naviguer .nav_menu_figure, body nav .nav_menu .nav_menu_connecter .nav_menu_figure, body nav .nav_menu .nav_menu_analyser .nav_menu_figure {
+    width: 100%; }
+  body nav .nav_menu .nav_menu_naviguer p, body nav .nav_menu .nav_menu_connecter p, body nav .nav_menu .nav_menu_analyser p {
+    font-size: 1.5vw;
+    text-align: justify; }
+
+body nav .nav_menu .nav_menu_naviguer, body nav .nav_menu .nav_menu_connecter, body nav .nav_menu .nav_menu_analyser {
+  display: flex;
+  flex-direction: column;
+  margin: 2%; }
+
+body .articles .articles_art1, body .articles .articles_art2, body .articles .articles_art3, body .articles .articles_art4 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 0;
+  padding: 1%; }
+  body .articles .articles_art1 h2, body .articles .articles_art2 h2, body .articles .articles_art3 h2, body .articles .articles_art4 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 7vw;
+    text-align: right;
+    margin: 0;
+    padding: 2% 3% 10% 0;
+    line-height: 4.5vw; }
+    body .articles .articles_art1 h2 span, body .articles .articles_art2 h2 span, body .articles .articles_art3 h2 span, body .articles .articles_art4 h2 span {
+      font-size: 5vw; }
+  body .articles .articles_art1 p, body .articles .articles_art2 p, body .articles .articles_art3 p, body .articles .articles_art4 p {
+    font-size: 2.8vw;
+    padding: 0 3% 0 7%;
+    line-height: 4vw; }
+
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF; }
+  body header .header_image {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0; }
+  body header .header_textimage {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    right: 25%; }
+  body nav .nav_menu {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 2%;
+    display: flex; }
+    body nav .nav_menu .nav_menu_naviguer {
+      width: 33.3333333333%; }
+    body nav .nav_menu .nav_menu_connecter {
+      width: 33.3333333333%; }
+    body nav .nav_menu .nav_menu_analyser {
+      width: 33.3333333333%; }
+  body .articles {
+    width: 100%;
+    height: auto;
+    display: flex; }
+    body .articles .articles_art1 {
+      background-color: #D2EFFF; }
+    body .articles .articles_art2 {
+      background-color: #BEE3F8; }
+    body .articles .articles_art3 {
+      background-color: #A8D3EC; }
+    body .articles .articles_art4 {
+      background-color: #91C3DF; }
+  body .newsletter {
+    margin: auto;
+    height: auto;
+    margin-block-start: 2%;
+    margin-block-end: 3%; }
+    body .newsletter .newsletter_caption {
+      font-size: 3vw;
+      text-align: center;
+      font-family: "Oswald", sans-serif;
+      margin-block-end: 2%;
+      margin-block-start: 0%; }
+    body .newsletter .newsletter_form {
+      width: 50%;
+      margin: auto;
+      display: flex; }
+      body .newsletter .newsletter_form .newsletter_form_input {
+        width: 120vw;
+        height: 3vw;
+        border: none;
+        border-radius: 4px;
+        margin-right: 5%;
+        color: gray;
+        font-size: 1vw;
+        padding-left: 2%; }
+      body .newsletter .newsletter_form .newsletter_form_button {
+        width: 35vw;
+        height: 3vw;
+        border-radius: 4px;
+        color: #FFFFFF;
+        border: none;
+        background-color: #5E8FAC;
+        font-size: 1.5vw; }
+  body footer {
+    background: #77B7DD; }
+    body footer p {
+      font-size: 1.5vw;
+      text-align: center;
+      padding: 2% 0 2% 0; }
+
+/*# sourceMappingURL=design.css.map */

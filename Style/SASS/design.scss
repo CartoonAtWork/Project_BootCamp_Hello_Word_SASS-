@@ -1,0 +1,49 @@
+// variables 
+$bkg_color: #FFFFFF;
+$bkg_art1: #F2F2F2;
+$bkg_footer: #63779F;
+$bkg_table: #ECECEC;
+$bkg_news_form_button: #BDD0F9;
+$font_family1: 'Montserrat', sans-serif;
+$font-color: black;
+$width1: 100%;
+$widht2: 80%;
+
+body {
+    width: $width1;
+    height: auto;
+    margin: 0; 
+    padding: 0; 
+    background-color: $bkg_color;
+    font-family: $font_family1;
+    color: $font-color; 
+    header {
+        margin:auto; 
+        height: auto;
+        background-image: url(images/header.jpg);
+        background-size: cover;
+        background-repeat:  no-repeat; 
+       
+        .header_nav-bar {
+        height: 30px;
+        background-color: opacify($color: rgb(173, 36, 36), $amount: 0.5)
+        }
+
+        .header_image {
+        width: 30px; 
+        height: 30px;
+        margin: 0;
+        }
+
+    }   
+
+
+    footer {
+        background: $bkg_footer;
+        p {
+        font-size: 1.5vw;
+        text-align: center;
+        padding: 2% 0 2% 0; 
+        }
+    }
+}

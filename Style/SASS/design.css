@@ -1,0 +1,29 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  color: black; }
+  body header {
+    margin: auto;
+    height: auto;
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+    body header .header_nav-bar {
+      height: 30px;
+      background-color: #ad2424; }
+    body header .header_image {
+      width: 30px;
+      height: 30px;
+      margin: 0; }
+  body footer {
+    background: #63779F; }
+    body footer p {
+      font-size: 1.5vw;
+      text-align: center;
+      padding: 2% 0 2% 0; }
+
+/*# sourceMappingURL=design.css.map */
